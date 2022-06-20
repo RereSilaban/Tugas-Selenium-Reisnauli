@@ -20,6 +20,15 @@ public class MainWeb {
 		
 	// soal 2.Login
 		fungsi.login();
+		
+		try {
+			Thread.sleep(3000);
+			
+		} catch (InterruptedException e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		}
+		driver.quit();//mematikan driver yang berjalan dibelakang layar
 	}
 
 }
